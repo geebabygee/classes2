@@ -8,10 +8,3 @@ class Chef
     @restaurant = restaurant # FancyRestaurant instance
   end
 end
-
-
-# belcanto = FancyRestaurant.new('Belcanto', 30, 'Portuguese', 5, 'Gordon Ramsey')
-
-# puts "The chef of #{belcanto.name} is #{belcanto.chef.name}"
-
-# p belcanto
