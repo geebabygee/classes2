@@ -11,7 +11,13 @@ class FancyRestaurant < Restaurant
   end
 
   # overriding the superclass instance method
-  def name
-    "~ #{@name} ~"
+
+
+
+
+  def print_reservations
+    puts "We do not share our clients info!"
+    puts "At least for free...."
   end
+
 end

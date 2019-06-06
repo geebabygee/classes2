@@ -10,4 +10,9 @@ class FastFoodRestaurant < Restaurant
   def open?
     super || Time.now.hour >= 22 # Open after 10 as well
   end
+
+  def print_reservations
+    super #  call the method with the same of the class Restaurant
+    puts "We love these guys!!!!!!" # aditional behaviour of this subclass
+  end
 end
